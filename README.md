@@ -1,4 +1,4 @@
-# Pulmonary-Nodule-Detection-Undergraduate-project-
+# Pulmonary Nodule Detection (Undergraduate project)
 Using U-net, 3D CNN, cGAN to accomplish Pulmonary Nodule Detection. Also it's my undergraduate research program.
 
 
@@ -23,3 +23,7 @@ Due to hardware limitations, I only use a small part of the data, so the perform
 
 # Results
 
+# Reference
+[1]Ronneberger O , Fischer P , Brox T . U-Net: Convolutional Networks for Biomedical Image Segmentation[J]. 2015.
+[2]Kim B C , Yoon J S , Choi J S , et al. Multi-scale gradual integration CNN for false positive reduction in pulmonary nodule detection[J]. Neural Networks, 2019, 115:1-10.
+[3]Mirsky Y, Mahler T, Shelef I, et al. CT-GAN: Malicious tampering of 3D medical imagery using deep learning[C]//28th {USENIX} Security Symposium ({USENIX} Security 19). 2019: 461-478.
