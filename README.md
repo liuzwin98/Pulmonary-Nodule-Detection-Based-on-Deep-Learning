@@ -3,8 +3,9 @@ Using U-net, 3D CNN, cGAN to accomplish Pulmonary Nodule Detection. Also it's my
 
 
 # Content
-A pulmonary nodule detection model is established based on deep convolutional neural networks to achieve lung nodule extraction and false-positive filtering.The model uses a U-shaped network[1] structure for candidate nodule extraction, and a multi-scale 3D convolutional neural network[2] to filter false positives of lung nodules, retain the true nodules and improve the specificity of the model.To solve the problem of insufficient positive samples in the data set, the CT-GAN model[3] based on the conditional generated adversarial network is used to expand the image data of the lung nodules.<br>
-Specifically, it includes three part codes corresponding to the three folders.
+A pulmonary nodule detection model is established based on deep convolutional neural networks to achieve lung nodule extraction and false-positive filtering.The model uses a U-shaped network[1] structure for candidate nodule extraction, and a multi-scale 3D convolutional neural network[2] to filter false positives of lung nodules, retain the true nodules and improve the specificity of the model.To solve the problem of insufficient positive samples in the data set, the CT-GAN model[3] based on the conditional generated adversarial network is used to expand the image data of the lung nodules.<br><br>
+
+**Specifically, it includes three part codes corresponding to the three folders.**
 
 # How to start
 ## Software
