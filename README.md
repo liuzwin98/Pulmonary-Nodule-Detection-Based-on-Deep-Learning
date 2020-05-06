@@ -27,7 +27,11 @@ Due to hardware limitations, I only use a small part of the data, so the perform
 Figure 1. Unet_loss
 </div><br>
 
-
+<div align=center><img src="https://github.com/liuzwin98/Pulmonary-Nodule-Detection-Based-on-Deep-Learning/blob/master/Results/Unet_results.png" width = "400" height = "300"> 
+  <img src="https://github.com/liuzwin98/Pulmonary-Nodule-Detection-Based-on-Deep-Learning/blob/master/Results/Unet_results2" width = "400" height = "300">
+  <br>
+Figure 2. Unet_results
+</div><br>
 
 ![Unet_loss](https://github.com/liuzwin98/Pulmonary-Nodule-Detection-Based-on-Deep-Learning/blob/master/Results/Unet_loss.jpg)<br>
 ![Unet_results](https://github.com/liuzwin98/Pulmonary-Nodule-Detection-Based-on-Deep-Learning/blob/master/Results/Unet_results.png)<br>
