@@ -1,27 +1,9 @@
 
 # Multi-scale Gradual Integration CNN for False Positive Reduction in Pulmonary Nodule Detection
 
-This repository contains code to train and test MGI-CNN. (https://doi.org/10.1016/j.neunet.2019.03.003)
+<font size=7 color=red>Please see https://github.com/ku-milab/MGICNN for details.</font> 
 
-## Hardware and Software
-
-### Software requirements
-
-**For data processing**: SimpleITK, Scipy
-
-`pip install SimpleITK scipy`
-
-This code requires unzipped LUNA16 dataset. (https://luna16.grand-challenge.org/Download/)
-
-**For training**: Ubuntu 16.04, Python 3.6, Tensorflow 1.10
-
-(Optional) GPUtil
-
-`pip install GPUtil`
-
-### Hardware and training duration
-
-Each fold takes about 12 hours to run 100 epochs using Nvidia GTX 1080 ti. Note that all experiments in our paper are based on 40<sup>th</sup> epoch.
+(Paper Here: https://doi.org/10.1016/j.neunet.2019.03.003)
 
 
 ## Usage
@@ -49,21 +31,3 @@ Example
 * Specify train or test (--train or --test and --tst_model_path/--tst_epoch).
 
 
-## Results
-
-We participated in the competition and got the following CPMs:
-
-- MILAB_ConcatCAD: rank 3 (2017.11.25)
-
-https://luna16.grand-challenge.org/Results/
-
-## Authors
-
-[Bum-Chae Kim](mailto:raretiger8@gmail.com), [Jee Seok Yoon](mailto:wltjr1007@korea.ac.kr)\*\*, [Jun-Sik Choi](mailto:junsikchoi@korea.ac.kr), and [Prof. Heung-Il Suk](mailto:hisuk@korea.ac.kr)*
-
-*Corresponding author: hisuk@korea.ac.kr    
-\*\* For code inquiries: wltjr1007@korea.ac.kr    
-
-[Machine Intelligence Lab](https://milab.korea.ac.kr).,\
-Dept. Brain & Cognitive Engineering.\
-Korea University, Seoul, South Korea.
