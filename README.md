@@ -27,19 +27,28 @@ Due to hardware limitations, I only use a small part of the data, so the perform
 Figure 1. Unet_loss
 </div><br>
 
-<div align=center><img src="https://github.com/liuzwin98/Pulmonary-Nodule-Detection-Based-on-Deep-Learning/blob/master/Results/Unet_results.png" width = "400" height = "300"> 
-  <img src="https://github.com/liuzwin98/Pulmonary-Nodule-Detection-Based-on-Deep-Learning/blob/master/Results/Unet_results2" width = "400" height = "300">
+<div align=center><img src="https://github.com/liuzwin98/Pulmonary-Nodule-Detection-Based-on-Deep-Learning/blob/master/Results/Unet_results.png" width = "300" height = "300"> 
+  <img src="https://github.com/liuzwin98/Pulmonary-Nodule-Detection-Based-on-Deep-Learning/blob/master/Results/Unet_results2.png" width = "300" height = "300">
   <br>
 Figure 2. Unet_results
 </div><br>
 
-![Unet_loss](https://github.com/liuzwin98/Pulmonary-Nodule-Detection-Based-on-Deep-Learning/blob/master/Results/Unet_loss.jpg)<br>
-![Unet_results](https://github.com/liuzwin98/Pulmonary-Nodule-Detection-Based-on-Deep-Learning/blob/master/Results/Unet_results.png)<br>
-![Unet_results2](https://github.com/liuzwin98/Pulmonary-Nodule-Detection-Based-on-Deep-Learning/blob/master/Results/Unet_results2.png)<br>
-![3DCNN_acc](https://github.com/liuzwin98/Pulmonary-Nodule-Detection-Based-on-Deep-Learning/blob/master/Results/3DCNN_acc.jpg)<br>
-![Roc.png](https://github.com/liuzwin98/Pulmonary-Nodule-Detection-Based-on-Deep-Learning/blob/master/Results/Roc.png)<br>
-![GAN_loss](https://github.com/liuzwin98/Pulmonary-Nodule-Detection-Based-on-Deep-Learning/blob/master/Results/GAN_loss_curve.jpg)<br>
-![GAN_results](https://github.com/liuzwin98/Pulmonary-Nodule-Detection-Based-on-Deep-Learning/blob/master/Results/GAN_results.png)<br>
+<div align=center><img src="https://github.com/liuzwin98/Pulmonary-Nodule-Detection-Based-on-Deep-Learning/blob/master/Results/3DCNN_acc.jpg" width = "300" height = "300"> <br>
+Figure 3. 3DCNN_acc
+</div><br>
+
+<div align=center><img src="https://github.com/liuzwin98/Pulmonary-Nodule-Detection-Based-on-Deep-Learning/blob/master/Results/Roc.png" width = "300" height = "300"> <br>
+Figure 4. Roc_curve
+</div><br>
+
+<div align=center><img src="https://github.com/liuzwin98/Pulmonary-Nodule-Detection-Based-on-Deep-Learning/blob/master/Results/GAN_loss_curve.jpg" width = "300" height = "300"> <br>
+Figure 5. GAN_loss
+</div><br>
+
+<div align=center><img src="https://github.com/liuzwin98/Pulmonary-Nodule-Detection-Based-on-Deep-Learning/blob/master/Results/GAN_results.png" width = "300" height = "300"> <br>
+Figure 6. GAN_results
+</div><br>
+
 
 # Reference
 [1]Ronneberger O , Fischer P , Brox T . U-Net: Convolutional Networks for Biomedical Image Segmentation[J]. 2015.<br>
