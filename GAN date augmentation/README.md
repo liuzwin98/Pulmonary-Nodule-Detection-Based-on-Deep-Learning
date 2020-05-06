@@ -1,5 +1,7 @@
 # Overview
-In this repository you will find a Keras implementation of CT-GAN: A framework for adding or removing evidence in 3D volumetric medical scans. In this readme, you will find a description of CT-GAN, examples of how to use the code, and links to our tampered datasets. For more details, please see our publication:
+<font size=5>**Please see https://github.com/ymirsky/CT-GAN for details.**</font> 
+<br>
+> In this repository you will find a Keras implementation of CT-GAN: A framework for adding or removing evidence in 3D volumetric medical scans. In this readme, you will find a description of CT-GAN, examples of how to use the code, and links to our tampered datasets. For more details, please see our publication:
 
 *Yisroel Mirsky, Tom Mahler, Ilan Shelef, and Yuval Elovici. CT-GAN: Malicious Tampering of 3D Medical Imagery using Deep Learning. 28th USENIX Security Symposium (USENIX Security 19)*
 
@@ -8,63 +10,6 @@ Links to datasets are found below.
 For access to the pretrained models, please reach out to me (contact below). We will only supply the models to verified academic researchers.
 
 **Disclaimer**: This code has been published for research purposes only. It is our hope that with this code, others will be able to better understand this threat and find better ways to mitigate it.
- 
-
-## What is CT-GAN?
-
-In 2018, clinics and hospitals were hit with numerous attacks
-leading to significant data breaches and interruptions in
-medical services. An attacker with access to medical imagery can alter the
-contents to cause a misdiagnosis. Concretely, the attacker can
-add or remove evidence of some medical condition. The figure below illustrates this attack vector.
-
-*An illustration of the attack vector within a hostpital:*
-![](https://raw.githubusercontent.com/ymirsky/CT-GAN/master/readme/attackvec.png)
-
-There are many reasons why an attacker would want to
-alter medical imagery: to disrupt a [political] leader's life, perform ransomware, an act of insurance fraud, falsifying research evidence, sabotaging another company’s research, job theft,
-terrorism, assassination, and even murder.
-
-CT-GAN is a framework for automatically injecting and removing medical evidence from 3D medical scans such as those produced from CT and MRI. The framework consists of two conditional GANs
-(cGAN) which perform in-painting (image completion) on
-3D imagery. For injection, a cGAN is trained on unhealthy
-samples so that the generator will always complete the images
-accordingly. Conversely, for removal, another cGAN is trained
-on healthy samples only.
-To make the process efficient and the output anatomically
-realistic, CT-GAN perform the following steps when tampering a scan, the framework
-1. locates where the evidence should be inject/removed, 
-2. cuts out a rectangular cuboid from the location, 
-3. interpolates (scales) the cuboid to 1:1:1 ratio,
-4. modifies the cuboid with the respective cGAN,
-5. rescales the cuboid back to the original ratio,
-6. pastes the scaled and tampered cuboid back into the original scan
-
-*Top: the complete cancer injection/removal process. Bottom: sample images from the injection process. The grey numbers indicate from which step the image was taken. The sample 2D images are the middle slice of the respective 3D cuboid:*
-![](https://raw.githubusercontent.com/ymirsky/CT-GAN/master/readme/pipeline.png)
-
-By dealing with a small portion of the scan, the problem complexity is reduced by focusing
-the GAN on the relevant area of the body (as opposed to the entire CT). Moreover, the algorithm complexity is reduced
-by processing fewer inputs (voxels) and concepts (anatomical features). This results in fast execution and high anatomical realism. In our paper we show how CT-GAN can trick expert radiologists 98% percent of the time and a state-of-the-art AI 100% of the time (in the case of lung cancer).
-
-## The cGAN (pix2pix) architecture
-The cGAN architecture (layers and configurations) used for training the injector and remover generator networks is illustrated below. Overall, each cGAN has 189.5 million trainable parameters each.
-
-*The network architecture, layers, and parameters used for both the injection and removal GAN networks:*
-![](https://raw.githubusercontent.com/ymirsky/CT-GAN/master/readme/arch.png)
-
-
-## Sample results
-*Top: 3D models of injection (left) and removal (right) of a cancerous pulmonary lung nodule. Bottom: sample injections (left) and removals (right), where for each image, the left side is before tampering and the right side is after and only the middle 2D slice is shown:*
-![](https://raw.githubusercontent.com/ymirsky/CT-GAN/master/readme/cancersamples.png)
-
-*CT-GAN used to inject brain tumors into MRIs of healthy brains. Top: context, middle: in-painted result, and bottom: ground-truth. Showing one slice
-in a 64x64x16 cuboid:*
-![](https://raw.githubusercontent.com/ymirsky/CT-GAN/master/readme/braintrain.png)
-
-*Demo video:*
-[![](https://raw.githubusercontent.com/ymirsky/CT-GAN/master/readme/demovid.png)](https://youtu.be/_mkRAArj-x0)
-
 
 ## This version's features and limitations
 **Features**
