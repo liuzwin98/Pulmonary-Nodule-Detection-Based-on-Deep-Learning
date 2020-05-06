@@ -1,5 +1,6 @@
 # Overview
-<font size=5>**Please see https://github.com/ymirsky/CT-GAN for details.**</font> 
+<font size=7 color=red>**Please see https://github.com/ymirsky/CT-GAN for details.**</font> 
+<br>
 <br>
 > In this repository you will find a Keras implementation of CT-GAN: A framework for adding or removing evidence in 3D volumetric medical scans. In this readme, you will find a description of CT-GAN, examples of how to use the code, and links to our tampered datasets. For more details, please see our publication:
 
