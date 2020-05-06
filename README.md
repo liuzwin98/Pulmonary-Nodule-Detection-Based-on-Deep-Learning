@@ -33,19 +33,19 @@ Figure 1. Unet_loss
 Figure 2. Unet_results
 </div><br>
 
-<div align=center><img src="https://github.com/liuzwin98/Pulmonary-Nodule-Detection-Based-on-Deep-Learning/blob/master/Results/3DCNN_acc.jpg" width = "300" height = "300"> <br>
+<div align=center><img src="https://github.com/liuzwin98/Pulmonary-Nodule-Detection-Based-on-Deep-Learning/blob/master/Results/3DCNN_acc.jpg" width = "350" height = "300"> <br>
 Figure 3. 3DCNN_acc
 </div><br>
 
-<div align=center><img src="https://github.com/liuzwin98/Pulmonary-Nodule-Detection-Based-on-Deep-Learning/blob/master/Results/Roc.png" width = "300" height = "300"> <br>
+<div align=center><img src="https://github.com/liuzwin98/Pulmonary-Nodule-Detection-Based-on-Deep-Learning/blob/master/Results/Roc.png" width = "350" height = "300"> <br>
 Figure 4. Roc_curve
 </div><br>
 
-<div align=center><img src="https://github.com/liuzwin98/Pulmonary-Nodule-Detection-Based-on-Deep-Learning/blob/master/Results/GAN_loss_curve.jpg" width = "300" height = "300"> <br>
+<div align=center><img src="https://github.com/liuzwin98/Pulmonary-Nodule-Detection-Based-on-Deep-Learning/blob/master/Results/GAN_loss_curve.jpg" width = "350" height = "300"> <br>
 Figure 5. GAN_loss
 </div><br>
 
-<div align=center><img src="https://github.com/liuzwin98/Pulmonary-Nodule-Detection-Based-on-Deep-Learning/blob/master/Results/GAN_results.png" width = "300" height = "300"> <br>
+<div align=center><img src="https://github.com/liuzwin98/Pulmonary-Nodule-Detection-Based-on-Deep-Learning/blob/master/Results/GAN_results.png" width = "700" height = "300"> <br>
 Figure 6. GAN_results
 </div><br>
 
