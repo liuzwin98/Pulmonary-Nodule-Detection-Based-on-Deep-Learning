@@ -1,7 +1,7 @@
 
 # Multi-scale Gradual Integration CNN for False Positive Reduction in Pulmonary Nodule Detection
 
-<font size=7 color=red>Please see https://github.com/ku-milab/MGICNN for details.</font> 
+<font color=red>Please see https://github.com/ku-milab/MGICNN for details.</font> 
 
 (Paper Here: https://doi.org/10.1016/j.neunet.2019.03.003)
 
