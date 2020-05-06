@@ -24,8 +24,8 @@ Due to hardware limitations, I only use a small part of the data, so the perform
 
 # Results
 <div align=center><img src="https://github.com/liuzwin98/Pulmonary-Nodule-Detection-Based-on-Deep-Learning/blob/master/Results/Unet_loss.jpg" width = "400" height = "300"> 
-<center>Figure 1. Unet_loss</center> <br>
-</div>
+Figure 1. Unet_loss
+</div><br>
 
 
 
