@@ -23,6 +23,7 @@ LIDC's subset: **LUAN16 datast**
 Due to hardware limitations, I only use a small part of the data, so the performance of the model is not very good.And there is a certain overfitting phenomenon.
 
 # Results
+<img src="https://github.com/liuzwin98/Pulmonary-Nodule-Detection-Based-on-Deep-Learning/blob/master/Results/Unet_loss.jpg" width = "150" height = "150" div align=center />
 ![Unet_loss](https://github.com/liuzwin98/Pulmonary-Nodule-Detection-Based-on-Deep-Learning/blob/master/Results/Unet_loss.jpg)<br>
 ![Unet_results](https://github.com/liuzwin98/Pulmonary-Nodule-Detection-Based-on-Deep-Learning/blob/master/Results/Unet_results.png)<br>
 ![Unet_results2](https://github.com/liuzwin98/Pulmonary-Nodule-Detection-Based-on-Deep-Learning/blob/master/Results/Unet_results2.png)<br>
