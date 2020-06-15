@@ -16,7 +16,7 @@ pydicom.
 Detailed description in each section folder. I just reproduced their work. Please refer to their papers for details. You can test their performance separately, and finally integrate the three parts to complete the whole process of pulmonary nodule detection
 
 ## Dataset
-LIDC's subset: **LUAN16 datast** 
+LIDC's subset: **LUNA16 datast** 
 
 
 # Notes
