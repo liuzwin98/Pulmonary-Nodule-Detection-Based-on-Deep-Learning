@@ -1,5 +1,5 @@
 # Pulmonary Nodule Detection (Undergraduate project)
-Using U-net, 3D CNN, cGAN to accomplish Pulmonary Nodule Detection. Also it's my undergraduate research program.
+Using U-net, 3D CNN, cGAN to accomplish Pulmonary Nodule Detection. Also it's my undergraduate research program. ([Chinese Blog series](https://blog.csdn.net/liuz_notes/article/details/106438215))
 
 
 # Content
